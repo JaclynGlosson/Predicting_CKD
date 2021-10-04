@@ -1,5 +1,5 @@
 # Predicting_CKD
-The main objective of this case study was to create a screening tool which allows identification of those individuals who are at a higher risk of suffering from CKD. The data used in this analysis was gathered by the National Center for Health Statistics of the Centers for Disease Control and Prevention. The data contains information on 33 different variables from 8,819 adults and was collected between 1999 and 2002. 
+The objective of this case study was to create a screening tool which allows identification of those individuals who are at a higher risk of suffering from CKD. The data used in this analysis was gathered by the National Center for Health Statistics of the Centers for Disease Control and Prevention. The data contains information on 33 different variables from 8,819 adults and was collected between 1999 and 2002. 
 
 The dataset contained 1,864 rows of missing data that was imputed using Multivariate Imputation by Chained Equation, or MICE, in R studio.
 
