@@ -3,10 +3,10 @@ The main objective of this case study was to create a screening tool which allow
 
 The dataset contained 1,864 rows of missing data that was imputed using Multivariate Imputation by Chained Equation, or MICE, in R studio.
 
-Variables were chosen for the dataset based on (a) prior medical research, (b) stepAIC, and (c) cross validation.
+Variables were chosen for the logistic regression model based on (a) prior medical research, (b) stepAIC, and (c) cross validation.
 
-The predictive model had a median is .015, meaning half the patients have less than a 1.5% chance of getting CKD. The expected profit for our model is $292,200. 
+The predictive model had a median is .015, meaning half the patients have less than a 1.5% chance of getting CKD. The expected profit for the model was $292,200. 
 
 A screening tool was created using linear regression and the variables identified from the logistic regression model. This screening tool identified who should be recommended to be screened for CKD. The screening tool consisted of 8 questions and approximated 95% of the accuracy of the logistic regression model, while maintaining interpretability and ease of use for patients. 
 
-*Please note that this was a group project with another individual, however we developed this project in parallel and all code below was written by myself (with the exception of a *function created by the professor). Please note that apart from two graphs, the executive report was written entirely by me.
+*Please note that this was a group project with another individual, however we developed this project in parallel and essentially all code below was written by myself (with the *exception of a function created by the professor). Please note that apart from two graphs, the executive report was written entirely by myself. Also note that the professor never *releases the data with the true CKD outcomes. Therefore the true positive and false negative rates performed by this model on the testing data were never released, but were *reflected in the "A" grade the project recieved. 
