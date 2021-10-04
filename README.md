@@ -5,7 +5,7 @@ The dataset contained 1,864 rows of missing data that was imputed using Multivar
 
 Variables were chosen for the logistic regression model based on (a) prior medical research, (b) stepAIC, and (c) cross validation.
 
-The predictive model had a median is .015, meaning half the patients have less than a 1.5% chance of getting CKD. The expected profit for the model was $292,200. 
+The predictive model had a median of 0.015, meaning half the patients have less than a 1.5% chance of getting CKD. The expected profit for the model was $292,200. 
 
 A screening tool was created using linear regression and the variables identified from the logistic regression model. This screening tool identified who should be recommended to be screened for CKD. The screening tool consisted of 8 questions and approximated 95% of the accuracy of the logistic regression model, while maintaining interpretability and ease of use for patients. 
 
